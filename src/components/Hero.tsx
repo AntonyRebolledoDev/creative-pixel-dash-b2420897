@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="w-full h-[900px] relative overflow-hidden bg-white">
+    <section className="w-full h-[100vh] relative overflow-hidden bg-white">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/4d7f3b295583025286305d825347747f6cdce54e?width=3212"
         alt="Modern self-service laundromat interior"
@@ -80,9 +80,9 @@ const Hero: React.FC = () => {
               <div className="text-white text-sm font-semibold leading-5">
                 Mismo día
               </div>
-              <div className="text-white text-xs font-normal leading-4 underline">
+              <a href='#' className="text-white text-xs font-normal leading-4 underline cursor-pointer hover:text-black">
                 Entrega rápida *[1]
-              </div>
+              </a>
             </div>
           </div>
           

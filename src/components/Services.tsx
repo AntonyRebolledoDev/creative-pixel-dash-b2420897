@@ -178,13 +178,14 @@ const Services: React.FC = () => {
               <hr className="mb-5 border-t-[rgba(255,255,255,0.20)] border-t border-solid" />
               
               <div className="mb-5 p-4 rounded-2xl border-2 border-white border-opacity-20 bg-gradient-to-r from-blue-500/10 to-blue-600/10">
+                
+                <div className="text-center">
+                  <span className="text-white text-6xl font-bold">$30</span>
+                  <span className="text-white text-lg ml-2">MXN</span>
+                </div>
                 <h4 className="text-white text-xs font-bold leading-4 tracking-[0.6px] uppercase mb-4 text-center">
                   PRECIO POR KG
                 </h4>
-                <div className="text-center">
-                  <span className="text-white text-4xl font-bold">$30</span>
-                  <span className="text-white text-lg ml-2">MXN</span>
-                </div>
               </div>
               
               <div className="flex items-center gap-3">

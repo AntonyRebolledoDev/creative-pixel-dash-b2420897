@@ -13,23 +13,23 @@ const Header: React.FC = () => {
         />
         <div className="flex items-center gap-6">
           <nav className="flex justify-center items-center pl-[3px] pr-0.5 py-0">
-            <a href="#promociones" className="text-white text-center text-sm font-medium leading-5 hover:text-blue-200 transition-colors">
+            <a href="#promociones" className="text-white font-poppins text-center text-sm font-medium leading-5 hover:text-blue-200 transition-colors">
               Promociones
             </a>
           </nav>
           <nav className="flex justify-center items-start gap-8 max-sm:hidden">
             <a href="#servicios" className="flex justify-center items-center">
-              <span className="text-white text-center text-sm font-medium leading-5 hover:text-blue-200 transition-colors">
+              <span className="text-white text-center text-sm font-medium font-poppins leading-5 hover:text-blue-200 transition-colors">
                 Servicios
               </span>
             </a>
             <a href="#facturacion" className="flex justify-center items-center">
-              <span className="text-white text-center text-sm font-medium leading-5 hover:text-blue-200 transition-colors">
+              <span className="text-white text-center text-sm font-medium font-poppins leading-5 hover:text-blue-200 transition-colors">
                 Facturación
               </span>
             </a>
             <a href="#sucursales" className="flex justify-center items-center">
-              <span className="text-white text-center text-sm font-medium leading-5 hover:text-blue-200 transition-colors">
+              <span className="text-white text-center text-sm font-medium font-poppins leading-5 hover:text-blue-200 transition-colors">
                 Sucursales
               </span>
             </a>

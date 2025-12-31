@@ -9,8 +9,8 @@ const Benefits: React.FC = () => {
         </svg>
       ),
       title: 'Rápido',
-      description: 'Equipos comerciales de alta capacidad para procesos más eficientes'
-    },
+      description: 'Equipos comerciales modernos. Procesos optimizados. Entrega el mismo día *[1].'
+      },
     {
       icon: (
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@ const Benefits: React.FC = () => {
         </svg>
       ),
       title: 'Transparente',
-      description: 'Precios claros y procesos visibles en todo momento'
+      description: 'Precios claros desde el inicio. Sin sorpresas. Sin letra pequeña.'
     },
     {
       icon: (
@@ -32,24 +32,30 @@ const Benefits: React.FC = () => {
         </svg>
       ),
       title: 'Simple',
-      description: 'Tecnología que simplifica cada paso del proceso'
+      description: 'Entiendes qué hacer, cuánto cuesta y cuánto tarda. Sin preguntar.'
     }
   ];
 
   return (
-    <section className="w-full bg-white px-5 py-20">
-      <div className="max-w-screen-xl mx-auto my-0">
-        <div className="text-center mb-20">
-          <h2 className="text-black text-center text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-10 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
+    <section className="w-full bg-[#EDEFF4] px-5 py-20">
+      <div className="max-w-screen-xl xl:w-[1152px] mx-auto my-0">
+        <div className="flex justify-center items-center gap-[44px] text-center mb-20">
+          <img src="https://res.cloudinary.com/diefluaw7/image/upload/v1767202821/u2216735844_young_professional_laundromat_staff_member_delive_447b5136-0710-48a3-9576-56fe66399549_2_1_pgxgev.png" alt="" className='rounded-[24px] xl:w-[552px] xl:h-[310.5px] ' />
+          <div>
+          <h2 className="text-black font-poppins text-left text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-10 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
             Lavar tu ropa,
             <br />
-            no tiene que ser pesado
+            <span className='text-[#003A9E]'>no tiene que ser <br /> pesado</span> 
           </h2>
+          <p className='font-poppins xl:text-[18px] xl:leading-[28px] text-[#003A9E] text-left '>
+            No somos una lavandería tradicional. Utilizamos tecnología aplicada a un problema cotidiano.
+          </p>
+          </div>
         </div>
         
-        <div className="flex justify-center gap-8 flex-wrap">
+        <div className="w-full flex justify-between gap-8 flex-wrap">
           {benefits.map((benefit, index) => (
-            <article key={index} className="text-center max-w-[300px]">
+            <article key={index} className="text-center bg-white xl:p-[33px] max-w-[300px]">
               <div className="flex w-14 h-14 justify-center items-center bg-[rgba(0,0,255,0.10)] mt-0 mb-5 mx-auto p-3.5 rounded-2xl">
                 {benefit.icon}
               </div>
