@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex w-full justify-center items-center backdrop-blur-[6px] absolute z-10 px-[88px] py-5 left-0 top-0 max-md:px-5">
+    <header className="flex w-full justify-center items-center  absolute z-10 px-[88px] py-5 left-0 top-0 max-md:px-5">
       <div className="flex w-full max-w-[1264px] justify-between items-center">
         <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/fdebf2230022f3a59dfddaf30f66b3b43b056236?width=324"
