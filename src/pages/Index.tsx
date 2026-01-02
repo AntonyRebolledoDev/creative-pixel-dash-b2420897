@@ -7,6 +7,9 @@ import Benefits from '@/components/Benefits';
 import Billing from '@/components/Billing';
 import Branches from '@/components/Branches';
 import Footer from '@/components/Footer';
+import TerminosCondiciones from '@/components/TerminosCondiciones';
+import WhatsAppNotificationsSection from '@/components/WhatsAppNotificationsSection';
+import WhatsAppCTA from '@/components/WhatsAppCTA';
 
 const Index: React.FC = () => {
   return (
@@ -17,8 +20,11 @@ const Index: React.FC = () => {
         <Promotions />
         <Benefits />
         <Services />
+        <TerminosCondiciones message={"*[1]: El servicio de lavado por encargo con entrega el mismo día está disponible de lunes a viernes para pedidos recibidos antes de las 11:00 a. m."} />
+        <WhatsAppNotificationsSection />
         <Billing />
         <Branches />
+        <WhatsAppCTA />
       </main>
       <Footer />
     </div>

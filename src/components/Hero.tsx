@@ -15,18 +15,18 @@ const Hero: React.FC = () => {
             <path d="M7.99967 14.6667C11.6816 14.6667 14.6663 11.6819 14.6663 8.00001C14.6663 4.31811 11.6816 1.33334 7.99967 1.33334C4.31778 1.33334 1.33301 4.31811 1.33301 8.00001C1.33301 11.6819 4.31778 14.6667 7.99967 14.6667Z" stroke="white" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M8 4V8L10.6667 9.33333" stroke="white" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span className="text-white text-center text-sm font-medium leading-5">
+          <span className="text-white text-center font-poppins text-sm font-medium leading-5">
             Entrega el mismo día
           </span>
         </div>
         
-        <h1 className="text-white text-center text-7xl font-bold leading-[72px] tracking-[-1.8px] mb-5 max-md:text-[56px] max-md:leading-[56px] max-sm:text-4xl max-sm:leading-10">
+        <h1 className="text-white text-center text-7xl font-poppins font-bold leading-[72px] tracking-[-1.8px] mb-5 max-md:text-[56px] max-md:leading-[56px] max-sm:text-4xl max-sm:leading-10">
           Lavar tu ropa,
           <br />
           nunca fue tan fácil
         </h1>
         
-        <p className="text-white text-center text-xl font-normal leading-7 mb-10 max-md:text-lg max-md:leading-[26px] max-sm:text-base max-sm:leading-6">
+        <p className="text-white text-center text-xl font-poppins font-normal leading-7 mb-10 max-md:text-lg max-md:leading-[26px] max-sm:text-base max-sm:leading-6">
           Tecnología aplicada al lavado. Procesos claros, tiempos reales y
           cero complicaciones. Tú decides, nosotros ejecutamos.
         </p>
@@ -36,13 +36,13 @@ const Hero: React.FC = () => {
             <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.9808 3.20624L21.6671 7.54874L25.6158 9.56249L23.6246 13.5L25.6271 17.4375L21.6446 19.4512L20.9583 23.7937L16.5821 23.1075L13.4658 26.2125L10.3383 23.0625L5.99582 23.7825L5.29832 19.4062L1.37207 17.4037L3.37457 13.4662L1.38332 9.56249L5.33207 7.52624L6.01832 3.21749L10.3721 3.93749L13.4996 0.776245L16.6158 3.89249L20.9808 3.20624ZM10.6871 7.87499C10.2395 7.87499 9.8103 8.05278 9.49383 8.36925C9.17736 8.68572 8.99957 9.11494 8.99957 9.56249C8.99957 10.01 9.17736 10.4393 9.49383 10.7557C9.8103 11.0722 10.2395 11.25 10.6871 11.25C11.1346 11.25 11.5638 11.0722 11.8803 10.7557C12.1968 10.4393 12.3746 10.01 12.3746 9.56249C12.3746 9.11494 12.1968 8.68572 11.8803 8.36925C11.5638 8.05278 11.1346 7.87499 10.6871 7.87499ZM16.3121 15.75C15.8645 15.75 15.4353 15.9278 15.1188 16.2443C14.8024 16.5607 14.6246 16.9899 14.6246 17.4375C14.6246 17.885 14.8024 18.3143 15.1188 18.6307C15.4353 18.9472 15.8645 19.125 16.3121 19.125C16.7596 19.125 17.1888 18.9472 17.5053 18.6307C17.8218 18.3143 17.9996 17.885 17.9996 17.4375C17.9996 16.9899 17.8218 16.5607 17.5053 16.2443C17.1888 15.9278 16.7596 15.75 16.3121 15.75ZM9.46082 19.125L19.1246 9.46124L17.5383 7.87499L7.87457 17.5387L9.46082 19.125Z" fill="white" />
             </svg>
-            <span className="text-white text-center text-lg font-semibold leading-7">
+            <span className="text-white text-center font-poppins text-lg font-semibold leading-7">
               Ver Promociones
             </span>
           </button>
           
           <button className="flex justify-center items-center backdrop-blur-[2px] bg-[rgba(255,255,255,0.80)] pt-[15px] pb-4 px-[42px] rounded-xl border-2 border-solid border-[rgba(255,255,255,0.30)] hover:bg-white transition-colors">
-            <span className="text-black text-center text-lg font-semibold leading-7">
+            <span className="text-black text-center text-lg font-poppins font-semibold leading-7">
               Ver servicios
             </span>
           </button>
@@ -60,10 +60,10 @@ const Hero: React.FC = () => {
               </svg>
             </div>
             <div>
-              <div className="text-white text-sm font-semibold leading-5">
+              <div className="text-white font-poppins text-sm font-semibold leading-5">
                 Tecnología Aplicada
               </div>
-              <div className="text-white text-xs font-normal leading-4">
+              <div className="text-white font-poppins text-xs font-normal leading-4">
                 Procesos modernos
               </div>
             </div>
@@ -77,10 +77,10 @@ const Hero: React.FC = () => {
               </svg>
             </div>
             <div>
-              <div className="text-white text-sm font-semibold leading-5">
+              <div className="text-white text-sm font-poppins font-semibold leading-5">
                 Mismo día
               </div>
-              <a href='#' className="text-white text-xs font-normal leading-4 underline cursor-pointer hover:text-black">
+              <a href='#' className="text-white text-xs font-poppins font-normal leading-4 underline cursor-pointer hover:text-black">
                 Entrega rápida *[1]
               </a>
             </div>
@@ -93,10 +93,10 @@ const Hero: React.FC = () => {
               </svg>
             </div>
             <div>
-              <div className="text-white text-sm font-semibold leading-5">
+              <div className="text-white text-sm font-poppins font-semibold leading-5">
                 WhatsApp
               </div>
-              <div className="text-white text-xs font-normal leading-4">
+              <div className="text-white text-xs font-poppins font-normal leading-4">
                 Respuesta inmediata
               </div>
             </div>

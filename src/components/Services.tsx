@@ -6,16 +6,16 @@ const Services: React.FC = () => {
       <div className="max-w-[1400px] mx-auto my-0">
         <div className="text-center mb-20">
           <div className="inline-flex justify-center items-center bg-[rgba(74,128,222,0.20)] mb-5 px-4 py-1.5 rounded-full">
-            <span className="text-[#4A80DE] text-center text-sm font-medium leading-5">
+            <span className="text-[#4A80DE] font-poppins text-center text-sm font-medium leading-5">
               Servicios
             </span>
           </div>
-          <h2 className="text-black text-center text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-5 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
+          <h2 className="text-black text-center text-5xl font-poppins font-bold leading-[48px] tracking-[-1.2px] mb-5 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
             Dos soluciones,
             <br />
             un mismo estándar
           </h2>
-          <p className="text-[#003A9E] text-center text-lg font-normal leading-7 mb-[60px]">
+          <p className="text-[#003A9E] text-center font-poppins text-lg font-normal leading-7 mb-[60px]">
             Elige cómo quieres lavar. Nosotros garantizamos la misma calidad y
             eficiencia.
           </p>
@@ -37,16 +37,16 @@ const Services: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-black text-2xl font-bold leading-8 tracking-[-0.6px]">
+                  <h3 className="text-black text-2xl font-poppins font-bold leading-8 tracking-[-0.6px]">
                     Autoservicio
                   </h3>
-                  <p className="text-[#003A9E] text-sm font-normal leading-5">
+                  <p className="text-[#003A9E] font-poppins text-sm font-normal leading-5">
                     Tú controlas tu tiempo
                   </p>
                 </div>
               </div>
               
-              <p className="text-[#003A9E] text-base font-normal leading-6 mb-8">
+              <p className="text-[#003A9E] font-poppins text-base font-normal leading-6 mb-8">
                 Equipos comerciales modernos a tu disposición. Rápido,
                 autónomo y ajustado a tus tiempos.
               </p>
@@ -63,7 +63,7 @@ const Services: React.FC = () => {
                       <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="#0000FF" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="#0000FF" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="text-black text-sm font-normal leading-5">
+                    <span className="text-black text-sm font-poppins font-normal leading-5">
                       {item}
                     </span>
                   </li>
@@ -73,7 +73,7 @@ const Services: React.FC = () => {
               <hr className="mb-5 border-t border-solid border-gray-200" />
               
               <div className="mb-5 p-[26px] rounded-2xl border-2 border-solid border-[#00F]">
-                <h4 className="text-[#00F] text-xs font-bold leading-4 tracking-[0.6px] uppercase mb-4">
+                <h4 className="text-[#00F] text-xs font-poppins font-bold leading-4 tracking-[0.6px] uppercase mb-4">
                   PRECIOS (Lavado y secado)
                 </h4>
                 <div className="flex justify-between items-end">
@@ -82,24 +82,24 @@ const Services: React.FC = () => {
                       Máquinas chicas
                     </p>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-[#00F] text-4xl font-bold leading-10">
+                      <span className="text-[#00F] text-4xl font-poppins font-bold leading-10">
                         $80
                       </span>
-                      <span className="text-[#4A80DE] text-sm font-normal leading-5">
+                      <span className="text-[#4A80DE] text-sm font-poppins font-normal leading-5">
                         MXN
                       </span>
                     </div>
                   </div>
                   <div className="w-px h-16 bg-gray-200" />
                   <div>
-                    <p className="text-[#003A9E] text-sm font-medium leading-5 mb-2">
+                    <p className="text-[#003A9E] text-sm font-poppins font-medium leading-5 mb-2">
                       Máquinas grandes
                     </p>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-[#00F] text-4xl font-bold leading-10">
+                      <span className="text-[#00F] text-4xl font-poppins font-bold leading-10">
                         $125
                       </span>
-                      <span className="text-[#4A80DE] text-sm font-normal leading-5">
+                      <span className="text-[#4A80DE] text-sm font-poppins font-normal leading-5">
                         MXN
                       </span>
                     </div>
@@ -112,7 +112,7 @@ const Services: React.FC = () => {
                   <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="#4A80DE" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="M10 5V10L13.3333 11.6667" stroke="#4A80DE" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <span className="text-[#003A9E] text-sm font-normal leading-5">
+                <span className="text-[#003A9E] text-sm font-poppins font-normal leading-5">
                   Ciclo de Lavado y Secado ~80 min
                 </span>
               </div>
@@ -128,7 +128,7 @@ const Services: React.FC = () => {
                 className="w-full h-[279px] object-cover"
               />
               <div className="inline-flex justify-center items-center backdrop-blur-[2px] absolute bg-[#00F] px-3 py-1 rounded-full right-3.5 top-3.5">
-                <span className="text-white text-sm font-medium leading-5">
+                <span className="text-white text-sm font-poppins font-medium leading-5">
                   Más popular
                 </span>
               </div>
@@ -142,16 +142,16 @@ const Services: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-white text-2xl font-bold leading-8 tracking-[-0.6px]">
+                  <h3 className="text-white text-2xl font-poppins font-bold leading-8 tracking-[-0.6px]">
                     Lavado por encargo
                   </h3>
-                  <p className="text-[rgba(255,255,255,0.80)] text-sm font-normal leading-5">
+                  <p className="text-[rgba(255,255,255,0.80)] font-poppins text-sm font-normal leading-5">
                     Nosotros nos encargamos
                   </p>
                 </div>
               </div>
               
-              <p className="text-[rgba(255,255,255,0.90)] text-base font-normal leading-6 mb-8">
+              <p className="text-[rgba(255,255,255,0.90)] font-poppins text-base font-normal leading-6 mb-8">
                 La solución perfecta para gente ocupada. Delega sin culpa y
                 recibe tu ropa impecable el mismo día.
               </p>
@@ -168,7 +168,7 @@ const Services: React.FC = () => {
                       <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className={`text-sm font-normal leading-5 ${item.includes('*[1]') ? 'text-white underline' : 'text-white'}`}>
+                    <span className={`text-sm font-poppins font-normal leading-5 ${item.includes('*[1]') ? 'text-white underline' : 'text-white'}`}>
                       {item}
                     </span>
                   </li>
@@ -180,10 +180,10 @@ const Services: React.FC = () => {
               <div className="mb-5 p-4 rounded-2xl border-2 border-white border-opacity-20 bg-gradient-to-r from-blue-500/10 to-blue-600/10">
                 
                 <div className="text-center">
-                  <span className="text-white text-6xl font-bold">$30</span>
-                  <span className="text-white text-lg ml-2">MXN</span>
+                  <span className="text-white text-6xl font-poppins font-bold">$30</span>
+                  <span className="text-white text-lg font-poppins ml-2">MXN</span>
                 </div>
-                <h4 className="text-white text-xs font-bold leading-4 tracking-[0.6px] uppercase mb-4 text-center">
+                <h4 className="text-white text-xs font-poppins font-bold leading-4 tracking-[0.6px] uppercase mb-4 text-center">
                   PRECIO POR KG
                 </h4>
               </div>
@@ -194,10 +194,10 @@ const Services: React.FC = () => {
                   <path d="M6.24967 6.66659C6.47979 6.66659 6.66634 6.48004 6.66634 6.24992C6.66634 6.0198 6.47979 5.83325 6.24967 5.83325C6.01956 5.83325 5.83301 6.0198 5.83301 6.24992C5.83301 6.48004 6.01956 6.66659 6.24967 6.66659Z" fill="white" fillOpacity="0.9" stroke="white" strokeOpacity="0.9" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 <div>
-                  <div className="text-[rgba(255,255,255,0.90)] text-xl font-semibold leading-5">
+                  <div className="text-[rgba(255,255,255,0.90)] font-poppins text-xl font-semibold leading-5">
                     $80-$175 MXN
                   </div>
-                  <div className="text-[rgba(255,255,255,0.90)] text-sm font-normal leading-5">
+                  <div className="text-[rgba(255,255,255,0.90)] font-poppins text-sm font-normal leading-5">
                     Edredones y Hamacas
                   </div>
                 </div>
@@ -208,7 +208,7 @@ const Services: React.FC = () => {
         
         <div className="text-center mt-[60px]">
           <button className="inline-flex justify-center items-center shadow-[0_4px_14px_0_rgba(0,0,255,0.40)] gap-[13px] bg-[#00F] pt-[11px] pb-3 px-[34px] rounded-xl hover:bg-blue-700 transition-colors">
-            <span className="text-white text-center text-lg font-bold leading-7">
+            <span className="text-white text-center font-poppins text-lg font-bold leading-7">
               Ver detalle de precios
             </span>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
