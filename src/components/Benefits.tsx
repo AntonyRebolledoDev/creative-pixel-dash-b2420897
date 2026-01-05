@@ -18,28 +18,26 @@ const Benefits: React.FC = () => {
           <path d="M14 7V14L18.6667 16.3333" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
-      title: 'Transparente',
-      description: 'Precios claros desde el inicio. Sin sorpresas. Sin letra pequeña.'
+      title: 'Simple',
+      description: 'Entiendes qué hacer, cuánto cuesta y cuánto tarda. Sin preguntar.'
     },
     {
       icon: (
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M11.5932 18.0833C11.4891 17.6796 11.2786 17.3112 10.9838 17.0163C10.6889 16.7214 10.3205 16.511 9.9167 16.4068L2.75919 14.5611C2.63709 14.5266 2.52961 14.4529 2.4531 14.3516C2.37659 14.2504 2.33516 14.127 2.33516 14C2.33516 13.873 2.37659 13.7496 2.4531 13.6484C2.52961 13.5471 2.63709 13.4735 2.75919 13.4388L9.9167 11.592C10.3203 11.4879 10.6887 11.2776 10.9836 10.983C11.2785 10.6884 11.4891 10.32 11.5932 9.91666L13.4389 2.75916C13.4732 2.63656 13.5467 2.52854 13.6481 2.45161C13.7495 2.37467 13.8733 2.33301 14.0005 2.33301C14.1278 2.33301 14.2516 2.37467 14.353 2.45161C14.4544 2.52854 14.5279 2.63656 14.5622 2.75916L16.4068 9.91666C16.5109 10.3204 16.7214 10.6889 17.0163 10.9837C17.3111 11.2785 17.6796 11.489 18.0833 11.5931L25.2408 13.4377C25.3638 13.4716 25.4723 13.545 25.5497 13.6466C25.6271 13.7481 25.6691 13.8723 25.6691 14C25.6691 14.1277 25.6271 14.2518 25.5497 14.3534C25.4723 14.455 25.3638 14.5284 25.2408 14.5623L18.0833 16.4068C17.6796 16.511 17.3111 16.7214 17.0163 17.0163C16.7214 17.3111 16.5109 17.6796 16.4068 18.0833L14.5611 25.2408C14.5268 25.3634 14.4533 25.4714 14.3519 25.5483C14.2505 25.6253 14.1267 25.6669 13.9994 25.6669C13.8721 25.6669 13.7483 25.6253 13.6469 25.5483C13.5455 25.4714 13.472 25.3634 13.4377 25.2408L11.5932 18.0833Z" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M23.333 3.5V8.16667" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M25.6667 5.83337H21" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M4.66699 19.8334V22.1667" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
-          <path d="M5.83333 21H3.5" stroke="#0000FF" strokeWidth="2.33333" strokeLinecap="round" strokeLinejoin="round" />
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 2.66675L4 8.00008V26.6667C4 27.374 4.28095 28.0523 4.78105 28.5524C5.28115 29.0525 5.95942 29.3334 6.66667 29.3334H25.3333C26.0406 29.3334 26.7189 29.0525 27.219 28.5524C27.719 28.0523 28 27.374 28 26.6667V8.00008L24 2.66675H8Z" stroke="#0000FF" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 8H28" stroke="#0000FF" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21.3337 13.3333C21.3337 14.7477 20.7718 16.1043 19.7716 17.1045C18.7714 18.1047 17.4148 18.6666 16.0003 18.6666C14.5858 18.6666 13.2293 18.1047 12.2291 17.1045C11.2289 16.1043 10.667 14.7477 10.667 13.3333" stroke="#0000FF" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       ),
-      title: 'Simple',
-      description: 'Entiendes qué hacer, cuánto cuesta y cuánto tarda. Sin preguntar.'
+      title: 'Productos Disponibles',
+      description: 'Detergente, blanqueador, suavizante y más productos disponibles por ciclo. Compra justo lo necesario.'
     }
   ];
 
   return (
     <section className="w-full bg-[#EDEFF4] px-5 py-20">
       <div className="max-w-screen-xl xl:w-[1152px] mx-auto my-0">
-        <div className="flex justify-center items-center gap-[44px] text-center mb-20">
+        <div className="flex flex-col xl:flex-row justify-center items-center gap-[44px] text-center mb-20">
           <img src="https://res.cloudinary.com/diefluaw7/image/upload/v1767202821/u2216735844_young_professional_laundromat_staff_member_delive_447b5136-0710-48a3-9576-56fe66399549_2_1_pgxgev.png" alt="" className='rounded-[24px] xl:w-[552px] xl:h-[310.5px] ' />
           <div>
           <h2 className="text-black font-poppins text-left text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-10 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
@@ -47,15 +45,15 @@ const Benefits: React.FC = () => {
             <br />
             <span className='text-[#003A9E]'>no tiene que ser <br /> pesado</span> 
           </h2>
-          <p className='font-poppins xl:text-[18px] xl:leading-[28px] text-[#003A9E] text-left '>
+          <p className='font-poppins xl:text-[18px] md:w-[80%] xl:w-full  xl:leading-[28px] text-[#003A9E] text-left '>
             No somos una lavandería tradicional. Utilizamos tecnología aplicada a un problema cotidiano.
           </p>
           </div>
         </div>
         
-        <div className="w-full flex justify-between gap-8 flex-wrap">
+        <div className="w-full flex justify-between gap-6 flex-wrap">
           {benefits.map((benefit, index) => (
-            <article key={index} className="text-center bg-white xl:p-[33px] max-w-[300px]">
+            <article key={index} className="text-center bg-white p-[23px] xl:p-[33px] max-w-[342.66px]">
               <div className="flex w-14 h-14 justify-center items-center bg-[rgba(0,0,255,0.10)] mt-0 mb-5 mx-auto p-3.5 rounded-2xl">
                 {benefit.icon}
               </div>

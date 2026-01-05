@@ -2,11 +2,11 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="w-full h-[100vh] relative overflow-hidden bg-white">
+    <section className="w-full h-[100vh] xl:h-dvh relative overflow-hidden bg-white">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/4d7f3b295583025286305d825347747f6cdce54e?width=3212"
         alt="Modern self-service laundromat interior"
-        className="w-full h-[900px] object-cover absolute left-0 top-0"
+        className="w-full h-[100dvh] 2xl:h-dvh object-cover absolute left-0 top-0"
       />
       
       <div className="w-full max-w-4xl absolute -translate-x-2/4 -translate-y-2/4 text-center mx-auto my-0 px-5 py-0 left-2/4 top-2/4">

@@ -72,7 +72,7 @@ const Services: React.FC = () => {
               
               <hr className="mb-5 border-t border-solid border-gray-200" />
               
-              <div className="mb-5 p-[26px] rounded-2xl border-2 border-solid border-[#00F]">
+              <div className="mb-5 p-[26px] rounded-2xl border-2 border-solid border-[#0000FF]">
                 <h4 className="text-[#00F] text-xs font-poppins font-bold leading-4 tracking-[0.6px] uppercase mb-4">
                   PRECIOS (Lavado y secado)
                 </h4>
@@ -105,6 +105,23 @@ const Services: React.FC = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="mb-5 p-[26px] bg-[#4A80DE]/10 rounded-2xl ">
+                <div className="flex xl:gap-[12px] ">
+                  <svg className='w-10 h-5' width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 1.6665L2.5 4.99984V16.6665C2.5 17.1085 2.67559 17.5325 2.98816 17.845C3.30072 18.1576 3.72464 18.3332 4.16667 18.3332H15.8333C16.2754 18.3332 16.6993 18.1576 17.0118 17.845C17.3244 17.5325 17.5 17.1085 17.5 16.6665V4.99984L15 1.6665H5Z" stroke="#4A80DE" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.5 5H17.5" stroke="#4A80DE" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.3337 8.3335C13.3337 9.21755 12.9825 10.0654 12.3573 10.6905C11.7322 11.3156 10.8844 11.6668 10.0003 11.6668C9.11627 11.6668 8.26842 11.3156 7.6433 10.6905C7.01818 10.0654 6.66699 9.21755 6.66699 8.3335" stroke="#4A80DE" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <div className='flex flex-col'>
+                    <p className='font-poppins xl:text-[14px] xl:leading-[20px] font-bold text-[#4A80DE]'>¿Sin productos?</p>
+                    <span className=' font-poppins xl:text-[14px] xl:leading-[22.8px] text-[#003A9E]  '>
+                      Vendemos detergente, blanqueador y suavizante por ciclo. Compra solo lo que necesitas.
+                    </span>
+                  </div>
+
+                </div>
+                
               </div>
               
               <div className="flex items-center gap-3">
@@ -157,51 +174,66 @@ const Services: React.FC = () => {
               </p>
               
               <ul className="flex flex-col gap-4 mb-8">
-                {[
-                  'Precio claro: $30/kg',
-                  'Entrega el mismo día *[1]',
-                  'Lavado + secado + doblado',
-                  'Seguimiento por WhatsApp'
-                ].map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
+                  <li  className="flex items-start gap-3">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className={`text-sm font-poppins font-normal leading-5 ${item.includes('*[1]') ? 'text-white underline' : 'text-white'}`}>
-                      {item}
+                    <span className={`text-sm font-poppins font-normal leading-5 text-white `}>
+                      Precio claro: $30/kg
                     </span>
                   </li>
-                ))}
+                  <li  className="flex items-start gap-3">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <a className={`text-sm font-poppins font-normal leading-5 text-white underline`} href="#servicios">
+                      Entrega el mismo día *[1]
+                    </a>
+                  </li>
+                  <li  className="flex items-start gap-3">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span className={`text-sm font-poppins font-normal leading-5 text-white `}>
+                      Lavado + secado + doblado
+                    </span>
+                  </li>
+                  <li  className="flex items-start gap-3">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0003 18.3334C14.6027 18.3334 18.3337 14.6025 18.3337 10.0001C18.3337 5.39771 14.6027 1.66675 10.0003 1.66675C5.39795 1.66675 1.66699 5.39771 1.66699 10.0001C1.66699 14.6025 5.39795 18.3334 10.0003 18.3334Z" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M7.5 9.99992L9.16667 11.6666L12.5 8.33325" stroke="white" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span className={`text-sm font-poppins font-normal leading-5 text-white `}>
+                      Seguimiento por WhatsApp
+                    </span>
+                  </li>
               </ul>
               
               <hr className="mb-5 border-t-[rgba(255,255,255,0.20)] border-t border-solid" />
               
-              <div className="mb-5 p-4 rounded-2xl border-2 border-white border-opacity-20 bg-gradient-to-r from-blue-500/10 to-blue-600/10">
-                
-                <div className="text-center">
-                  <span className="text-white text-6xl font-poppins font-bold">$30</span>
-                  <span className="text-white text-lg font-poppins ml-2">MXN</span>
-                </div>
+              <div className="mb-5 p-4 py-10 rounded-2xl border-2 border-white border-opacity-20 bg-gradient-to-r from-blue-500/10 to-blue-600/10 flex flex-col items-center">
                 <h4 className="text-white text-xs font-poppins font-bold leading-4 tracking-[0.6px] uppercase mb-4 text-center">
-                  PRECIO POR KG
+                  PRECIO POR KILOGRAMO
                 </h4>
+                <div className="text-center mb-4">
+                  <span className="text-white text-6xl font-poppins font-bold">$30</span>
+                  <span className="text-white text-lg font-poppins ml-2">/kg</span>
+                </div>
+                <h2 className='px-6 flex justify-center text-white font-poppins bg-[#ffffff]/10 rounded-full xl:text-[14px] xl:leading-[20px] font-semibold w-[64.48px] py-[6px] text-center '>
+                  MXN
+                </h2>
+                <div className="w-full h-[1px] bg-white  my-4" />
+                <h2 className=' font-poppins text-white xl:text-[14px] xl:leading-[20px] font-medium mb-4 '>Edredones y Hamacas</h2>
+                <div className="text-center mb-4">
+                  <span className="text-white text-2xl font-poppins font-bold">$80-$175</span>
+                  <span className="text-white text-[14px] font-poppins ml-2">MXN</span>
+                </div>
               </div>
               
-              <div className="flex items-center gap-3">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10.4887 2.15508C10.1762 1.8425 9.75232 1.66684 9.31033 1.66675H3.33366C2.89163 1.66675 2.46771 1.84234 2.15515 2.1549C1.84259 2.46746 1.66699 2.89139 1.66699 3.33341V9.31008C1.66709 9.75207 1.84274 10.1759 2.15533 10.4884L9.40866 17.7417C9.78742 18.1181 10.2997 18.3294 10.8337 18.3294C11.3676 18.3294 11.8799 18.1181 12.2587 17.7417L17.742 12.2584C18.1184 11.8797 18.3296 11.3674 18.3296 10.8334C18.3296 10.2995 18.1184 9.78718 17.742 9.40841L10.4887 2.15508Z" stroke="white" strokeOpacity="0.9" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M6.24967 6.66659C6.47979 6.66659 6.66634 6.48004 6.66634 6.24992C6.66634 6.0198 6.47979 5.83325 6.24967 5.83325C6.01956 5.83325 5.83301 6.0198 5.83301 6.24992C5.83301 6.48004 6.01956 6.66659 6.24967 6.66659Z" fill="white" fillOpacity="0.9" stroke="white" strokeOpacity="0.9" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <div>
-                  <div className="text-[rgba(255,255,255,0.90)] font-poppins text-xl font-semibold leading-5">
-                    $80-$175 MXN
-                  </div>
-                  <div className="text-[rgba(255,255,255,0.90)] font-poppins text-sm font-normal leading-5">
-                    Edredones y Hamacas
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </article>
         </div>

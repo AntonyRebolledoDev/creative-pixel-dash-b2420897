@@ -21,11 +21,11 @@ const Promotions: React.FC = () => {
       <div className="max-w-[1400px] mx-auto my-0">
         <div className="text-center mb-20">
           <div className="inline-flex justify-center items-center bg-[rgba(74,128,222,0.20)] mb-5 px-4 py-1.5 rounded-full">
-            <span className="text-[#4A80DE] text-center text-sm font-medium leading-5">
+            <span className="text-[#4A80DE] font-poppins text-center text-sm font-medium leading-5">
               Promociones
             </span>
           </div>
-          <h2 className="text-black text-center text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-10 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
+          <h2 className="text-black text-center font-poppins text-5xl font-bold leading-[48px] tracking-[-1.2px] mb-10 max-md:text-[40px] max-md:leading-10 max-sm:text-[32px] max-sm:leading-9">
             Conoce nuestras promociones
           </h2>
         </div>
