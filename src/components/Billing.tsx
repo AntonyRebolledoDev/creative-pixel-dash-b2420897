@@ -79,7 +79,7 @@ const Billing: React.FC = () => {
             </h3>
           </div>
           
-          <div className="grid grid-cols-2 gap-4 mb-10 max-sm:grid-cols-1">
+          <div className="grid grid-cols-2 gap-4 mb-3 max-sm:grid-cols-1">
             {requirements.map((requirement, index) => (
               <div key={index} className="flex items-start gap-3 shadow-[0_2px_8px_0_rgba(0,0,0,0.04)] bg-white px-4 py-3 rounded-[10px]">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
